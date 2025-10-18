@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socketclient01", "socketclient01.vcxproj", "{56FF7159-48CD-4980-9190-71343B8FFC3A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DeployClient", "..\DeployClient\DeployClient.vdproj", "{6FA9CDA7-6417-BD80-6E9C-D545C4869781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Debug|x64.ActiveCfg = Debug|x64
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Debug|x64.Build.0 = Debug|x64
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Debug|x86.ActiveCfg = Debug|Win32
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Debug|x86.Build.0 = Debug|Win32
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Release|x64.ActiveCfg = Release|x64
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Release|x64.Build.0 = Release|x64
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Release|x86.ActiveCfg = Release|Win32
+		{56FF7159-48CD-4980-9190-71343B8FFC3A}.Release|x86.Build.0 = Release|Win32
+		{6FA9CDA7-6417-BD80-6E9C-D545C4869781}.Debug|x64.ActiveCfg = Debug
+		{6FA9CDA7-6417-BD80-6E9C-D545C4869781}.Debug|x86.ActiveCfg = Debug
+		{6FA9CDA7-6417-BD80-6E9C-D545C4869781}.Release|x64.ActiveCfg = Release
+		{6FA9CDA7-6417-BD80-6E9C-D545C4869781}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD41773E-8C10-468C-BFAC-11BD174794EF}
+	EndGlobalSection
+EndGlobal
